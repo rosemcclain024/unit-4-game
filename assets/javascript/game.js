@@ -66,7 +66,7 @@ function reset() {
     
         $(".crystals").append(crystal);
 
-        $("."+i).append("<img src='../assets/images/image_"+i+".jpg' width='100%' height='auto'>");
+        $("."+i).append("<img src='./assets/images/image_"+i+".jpg' width='100%' height='auto'>");
 
         //crystal.html("");
         //console.log(randomNumber);
