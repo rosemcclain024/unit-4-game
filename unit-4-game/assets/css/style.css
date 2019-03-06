@@ -36,3 +36,15 @@ p {
     background-blend-mode: lighten; 
 }
 
+#added {
+    text-align: center;
+   
+}
+
+.loss {
+    text-align: center;
+}
+
+.win {
+    text-align: center;
+}

@@ -87,6 +87,8 @@ $(".crystal").on('click', function () {
 
     previous += num;
     console.log(previous);
+    $("#added").html(previous);
+
 
     if (previous > randomResult) {
         console.log("You lose :(");
