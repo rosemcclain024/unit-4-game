@@ -1,15 +1,14 @@
-
+//disclaimer: I decided to change the theme of this AFTER i already names all my classes and things with crystals so bare with me lol I just really wanted to use pics of plants
 
 var randomNumber;
 var crystal;
-
 var randomResult;
 var loss = 1;
 var win = 1;
 var previous = 0;
+
 // setters
 // getters
-
 //$(".crystal").attr('class');
 
 randomResult = Math.floor(Math.random() * 120) + 19;
@@ -28,11 +27,17 @@ for (var i = 0; i < 4; i++) {
         "data-random": randomNumber
     });
 
-    crystal.html(randomNumber);
+    
+
+
+    //crystal.html(randomNumber);
 
     $(".crystals").append(crystal);
     //console.log(randomNumber);
 
+}
+for (var i = 0; i < 4; i++) {
+$("."+i).append("<img src='../assets/images/image_"+i+".jpg' width='100%' height='auto'>");
 }
 
 
@@ -49,14 +54,19 @@ function reset() {
         randomNumber = Math.floor(Math.random() * 11) + 1;
         console.log(randomNumber);
         $("."+i).attr({
+         "class": 'crystal '+i,
          "data-random": randomNumber
         }
         )
-        $("."+i).html(randomNumber);
+        $("."+i).html("");
     
-        crystal.html(randomNumber);
+        //crystal.html(randomNumber);
     
         $(".crystals").append(crystal);
+
+        $("."+i).append("<img src='../assets/images/image_"+i+".jpg' width='100%' height='auto'>");
+
+        //crystal.html("");
         //console.log(randomNumber);
     
     }
