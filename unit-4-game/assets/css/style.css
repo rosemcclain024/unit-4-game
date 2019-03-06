@@ -30,3 +30,9 @@ p {
 
 }
 
+.jumbotron {
+    text-align: center;
+    color: black;
+    background-blend-mode: lighten; 
+}
+

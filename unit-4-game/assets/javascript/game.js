@@ -1,5 +1,7 @@
 //disclaimer: I decided to change the theme of this AFTER i already names all my classes and things with crystals so bare with me lol I just really wanted to use pics of plants
 
+//double disclaimer, i'm not sure the instructions to this game are very helpful but i am tired and can fix it eventually. 
+
 var randomNumber;
 var crystal;
 var randomResult;
