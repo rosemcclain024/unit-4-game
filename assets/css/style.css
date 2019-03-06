@@ -5,17 +5,47 @@
     align-items: center;
     text-align: center;
     /*border: 1px solid white;*/
-
 }
 
 .crystal {
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     height: 200px;
     width: 200px;
     justify-content: space-evenly;
+    padding: 1px;
 }
+
 body {
-    background: rgb(206, 144, 144);
+    background-image: url("../images/v378-aum-d-34-memphisbackground_2.jpg");
+    background-size: cover;
+    /*background-attachment: fixed;*/
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    margin-top: 70px;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+
+.jumbotron {
+    text-align: center;
+    color: black;
+    background-blend-mode: lighten; 
+}
+
+#added {
+    text-align: center;
+   
+}
+
+.loss {
+    text-align: center;
+}
+
+.win {
+    text-align: center;
 }
